@@ -10,7 +10,7 @@ export default defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '计算机基础',
     items: [
-      { text: '计算机组成原理', link: '/blog/'}
+      { text: '计算机组成原理', link: '/article/23d3m6ws/'}
     ]
   },
   { text: '博客', link: '/blog/' },
