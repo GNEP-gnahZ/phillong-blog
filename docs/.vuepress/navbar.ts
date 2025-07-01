@@ -8,16 +8,16 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   { text: '首页', link: '/' },
-  { text: '计算机基础',
-    items: [
-      { text: '计算机组成原理', link: '/article/23d3m6ws/'}
-    ]
-  },
-  { text: '博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
+  // { text: '计算机基础',
+  //   items: [
+  //     { text: '计算机组成原理', link: '/article/23d3m6ws/'}
+  //   ]
+  // },
+  // { text: '博客', link: '/blog/' },
+  // { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },
-  {
-    text: '笔记',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
-  },
+  // {
+  //   text: '笔记',
+  //   items: [{ text: '示例', link: '/notes/demo/README.md' }]
+  // },
 ])

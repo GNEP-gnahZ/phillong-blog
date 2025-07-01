@@ -40,10 +40,7 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
@@ -59,7 +56,9 @@ export default defineThemeConfig({
 
   navbar,
   notes,
-
+  footer: {
+    message: 'ICP备案号：<a target="_blank" href="https://beian.miit.gov.cn/">赣ICP备2025065809号-1</a>',
+  },
   /**
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/

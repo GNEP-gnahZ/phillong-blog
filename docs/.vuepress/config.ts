@@ -16,8 +16,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'Phil-Long的博客',
-  description: '欢迎来到我的博客',
+  title: 'Phil-Long的光影世界',
+  description: '欢迎来到我的虚拟光影世界',
 
   head: [
     // 配置站点图标
@@ -39,7 +39,7 @@ export default defineUserConfig({
     },
     // 社交链接
     social: [
-      { icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
+      // { icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
       // ... more
     ],
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -72,7 +72,6 @@ export default defineUserConfig({
 
     /* 博客文章页面链接前缀 */
     article: '/article/',
-
     /**
      * 编译缓存，加快编译速度
      * @see https://theme-plume.vuejs.press/config/basic/#cache
