@@ -57,7 +57,7 @@ export default defineThemeConfig({
   navbar,
   notes,
   footer: {
-    message: 'ICP备案号：<a target="_blank" href="https://beian.miit.gov.cn/">赣ICP备2025065809号-1</a>',
+    message: '<div><img src="/gov.png" alt="" style="width: 16px; display: inline-block; vertical-align: middle">&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=36080202000505" rel="noreferrer" target="_blank">赣公网安备36080202000505号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://beian.miit.gov.cn/">赣ICP备2025065809号-1</a></div>',
   },
   /**
    * 公告板
